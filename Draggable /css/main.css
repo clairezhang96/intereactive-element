@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+body{
+  /*text font*/
+    font-family: 'Bungee Shade', cursive,monospace,;
+    font-size: 16px;
+   /*web whole thing*/ 
+    height: 2000px; width: auto;
+    background-color: linear-gradient(to bottom, #ccffff, #ffccff );
+    margin:0;
+
+}
+
+
+
+/* i want a background to be vintage pastel gradient colours*/
+.container{
+height: 100%; width: 100%;
+background: linear-gradient(to bottom, #ccffff, #ffccff);
+cursor: pointer;
+}
+
+.box-1 h2{
+  font-family:Bungee Shade;
+  font-size: 70px;
+  color:blue;
+  text-align: center;
+  margin:0; 
+  padding-top: 35px;
+}
+.box-1 p{
+  font-family:monospace;
+  text-shadow: 4px 2px blue;
+  color:black;
+  font-size: 30px;
+  border: 1px solid grey;
+  background-color: yellow; 
+  width: 350px; height:300px;
+  padding-left: 50px;
+  margin: 25px;
+}
+
+.box-2{
+  height: 500px; width: 60%;
+  border:5px solid black;
+  margin:auto;
+  position: relative;
+  padding: 75px;
+ }
+
+.box-2 button{
+  float:right;
+  border: 5px solid red;
+  color:red;
+  font-size: 40px; 
+}
+
+.box-2 iframe{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+ 
+.draggable { 
+  width: 150px; height: 150px; 
+  padding: 0.5em; 
+}
+
+#draggable2, #draggable3 { 
+  width: 100px; height: 100px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px 10px 10px 0; }
+
+#droppable2 { 
+  width: 150px; height: 150px; 
+  padding: 0.5em; 
+  float: left; margin: 10px; }
+
+.box-3{
+  height: auto;
+  width: 80%;
+  max-width: 500px;
+  border: 2px solid white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(to bottom, #ffccff, #ccffff );
+
+}
+  ul { 
+    list-style-type: none; 
+    margin: 0; padding: 0; margin-bottom: 10px; }
+  li { 
+    margin: 5px; padding: 20px; text-align: center;} 
+
+
